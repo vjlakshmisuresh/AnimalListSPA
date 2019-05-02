@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalsListAPI", "AnimalsListAPI\AnimalsListAPI.csproj", "{EAC5E292-2C11-476F-967D-F0954DC3FEE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAC5E292-2C11-476F-967D-F0954DC3FEE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC5E292-2C11-476F-967D-F0954DC3FEE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC5E292-2C11-476F-967D-F0954DC3FEE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC5E292-2C11-476F-967D-F0954DC3FEE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47579A71-EA61-4B54-8144-E3B75F618D5A}
+	EndGlobalSection
+EndGlobal

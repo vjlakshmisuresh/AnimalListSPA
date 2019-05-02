@@ -1,0 +1,11 @@
+<form #form="ngForm" (submit)="onSubmit(form)" autocomplete="off"> 
+    <input type="hidden" name="AnimalId" #AnimalId="ngModel" [(ngModel)]="service.formData.AnimalId">
+  <div class="form-group">      
+    <label>Animal Name: </label>
+    <input name="Name" class="animalname" #Name="ngModel" [(ngModel)]="service.formData.Name" required>
+    <div class="validation-error"  *ngIf="Name.invalid && Name.touched" >Please enter animal name</div>
+  </div>
+  <div class="form-group">
+    <button type="submit" [disabled]="form.invalid">Add</button>
+  </div>
+</form>
